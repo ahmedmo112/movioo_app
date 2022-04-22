@@ -57,7 +57,7 @@ Widget defaultFormField({
 }) =>
     TextFormField(
       
-      style: TextStyle(color: Colors.blue),
+      style: TextStyle(color: Colors.white),
       controller: controller,
       keyboardType: type,
       obscureText: isPassword,
@@ -73,6 +73,7 @@ Widget defaultFormField({
       validator: (value) {
         return validate!(value);
       },
+      cursorColor: Colors.amber,
       
       decoration: InputDecoration(
         hintText: "Search",

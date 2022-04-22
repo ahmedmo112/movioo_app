@@ -23,6 +23,8 @@
 # Flutter/Dart/Pub related
 **/doc/api/
 **/ios/Flutter/.last_build_id
+**/lib/logic/network/key.dart
+/lib/logic/network/key.dart
 .dart_tool/
 .flutter-plugins
 .flutter-plugins-dependencies

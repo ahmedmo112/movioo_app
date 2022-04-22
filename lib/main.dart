@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:movioo/logic/network/dio_helper.dart';
 import 'package:movioo/module/HomeScreen/home_screen.dart';
 
 void main() {
+  DioHelper.init();
   runApp(const MyApp());
 }
 
@@ -12,7 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'movioo',
       theme: ThemeData.dark(),
       debugShowCheckedModeBanner: false,
       home: HomeScreen(),
