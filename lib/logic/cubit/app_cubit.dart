@@ -87,7 +87,7 @@ class AppCubit extends Cubit<AppState> {
     ).then((value) {
       // print(value.data);
       detailModel = DetailModel.fromJson(value.data);
-      print("!!!!!!!");
+     
       
     emit(GetMovieSuccessState());
 
